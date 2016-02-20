@@ -24,7 +24,7 @@ import android.webkit.WebSettings.RenderPriority;
 import android.webkit.WebView;
 import android.widget.Toast;
 
-import de.cketti.library.changelog.ChangeLog;
+//import de.cketti.library.changelog.ChangeLog;
 
 public class MainActivity extends Activity {
 
@@ -76,10 +76,10 @@ public class MainActivity extends Activity {
 
         setContentView(R.layout.activity_main);
 
-        ChangeLog cl = new ChangeLog(this);
-        if (cl.isFirstRun()) {
-            cl.getLogDialog().show();
-        }
+//        ChangeLog cl = new ChangeLog(this);
+//        if (cl.isFirstRun()) {
+//            cl.getLogDialog().show();
+//        }
 
         // Load webview with game
         mWebView = (WebView) findViewById(R.id.mainWebView);
